@@ -30,7 +30,7 @@ jobs:
     
     build-and-publish: 
         needs: build-and-test
-        runs-on: ubuntu-lates
+        runs-on: ubuntu-latest
 
         steps: 
         - name: Checkout code
